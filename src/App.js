@@ -21,10 +21,10 @@ function Main() {
     <div>
       <Matninput bill={bill} setBill={setBill} />
       <Matnselect percent={percent1} onsetpercent={setpercent1}>
-        How did you like the servuce?
+        How did you like the service?
       </Matnselect>
       <Matnselect percent={percent2} onsetpercent={setpercent2}>
-        How did your friend like the servuce?
+        How did your friend like the service?
       </Matnselect>
       {bill > 0 && (
         <>
